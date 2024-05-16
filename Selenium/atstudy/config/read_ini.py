@@ -29,6 +29,7 @@ class DXHReadIni:
         return self.cf.get(self.node, key)
 
 
+# 单元测试
 if __name__ == '__main__':
     aa = DXHReadIni()
     print(aa.get_value("browser"))
