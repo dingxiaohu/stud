@@ -2,7 +2,7 @@
 import os
 
 
-class DXHReadIni:
+class DxhReadIni:
     #初始化路径
     #参数1 file_name 指定文件文件名
     #参数2 node 指定所需要的节点名
@@ -31,5 +31,5 @@ class DXHReadIni:
 
 # 单元测试
 if __name__ == '__main__':
-    aa = DXHReadIni()
+    aa = DxhReadIni()
     print(aa.get_value("browser"))
