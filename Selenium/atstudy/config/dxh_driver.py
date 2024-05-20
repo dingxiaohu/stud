@@ -60,4 +60,5 @@ def get_chrome_driver():
 
 # 单元测试
 if __name__ == '__main__':
-    get_firefox_driver()
+    d = get_firefox_driver()
+

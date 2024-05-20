@@ -17,8 +17,7 @@ class DxhReadIni:
         self.cf = self.load_ini(self.file_name)
 
     #加载配置文件
-    @staticmethod
-    def load_ini(file_name):
+    def load_ini(self, file_name):
         #获取解析配置对象
         cf = configparser.ConfigParser()
         cf.read(file_name, encoding="utf-8")
