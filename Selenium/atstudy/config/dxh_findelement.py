@@ -2,6 +2,7 @@ import os
 from time import sleep
 
 from selenium import webdriver
+from selenium.webdriver.common.by import By
 
 from config.dxh_driver import get_firefox_driver
 from config.read_ini import DxhReadIni
@@ -26,22 +27,21 @@ class DxhFindElement:
         value = data.split('>')[1]
         try:
             if by == 'id':
-                return self.driver.find_element_by_id(value)
+                return self.driver.find_element(By.ID, value)
             elif by == 'name':
-                return self.driver.find_element_by_name(value)
+                return self.driver.find_element(By.NAME, value)
             elif by == 'class_name':
-                return self.driver.find_element_by_class_name(value)
+                return self.driver.find_element(By.CLASS_NAME, value)
             elif by == 'link_text':
-                return self.driver.find_element_by_link_text(value)
+                return self.driver.find_element(By.LINK_TEXT, value)
             elif by == 'xpath':
-                print(2222)
-                return self.driver.find_element_by_xpath(value)
+                return self.driver.find_element(By.XPATH, value)
             elif by == 'css':
-                return self.driver.find_element_by_css_selector(value)
+                return self.driver.find_element(By.CSS_SELECTOR, value)
             elif by == 'tag_name':
-                return self.driver.find_element_by_tag_name(value)
+                return self.driver.find_element(By.TAG_NAME, value)
             elif by == 'partial_link_name':
-                return self.driver.find_element_by_partial_link_name(value)
+                return self.driver.find_element(By.PARTIAL_LINK_TEXT, value)
         except:
             return None
 
@@ -58,6 +58,5 @@ class DxhFindElement:
 if __name__ == '__main__':
     file_path = os.path.dirname(os.path.dirname(__file__))+"/business/LocalElement.ini"
     aa = DxhFindElement(get_firefox_driver())
-    yu = aa.get_element(file_path, "dxh_login", "user_login")
-    sleep(2)
-    print(yu)
+    print(aa.get_element(file_path, "dxh_login", "user_login"))
+

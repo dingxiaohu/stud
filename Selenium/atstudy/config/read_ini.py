@@ -14,13 +14,13 @@ class DxhReadIni:
             self.file_name = os.path.dirname(os.path.dirname(__file__)) + "/config/confing.ini"
         if node is None:
             self.node = "DXH_config"
-        self.cf = self.load_ini(self.file_name)
+        self.cf = self.load_ini()
 
-    #加载配置文件
-    def load_ini(self, file_name):
+    #加载配置文件,比老师的少个参数file_name
+    def load_ini(self):
         #获取解析配置对象
         cf = configparser.ConfigParser()
-        cf.read(file_name, encoding="utf-8")
+        cf.read(self.file_name, encoding="utf-8")
         return cf
 
     #获取配置文件中的内容-->指定key
