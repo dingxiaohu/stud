@@ -4,14 +4,26 @@ from config.dxh_driver import get_firefox_driver
 from config.dxh_findelement import DxhFindElement
 from test_data.read_csv import get_csv_data
 
+'''
+dxh_driver  启动浏览器返回的webdriver对象
+username    登录的账户名
+password    登录的密码
+'''
 
-# 登录
+
+# 登录 登录成功返回True 失败返回False
 def login(dxh_driver, username, password):
+    # 实例化一个用来获取元素的对象
     dxh = DxhFindElement(dxh_driver)
     node = "dxh_login"
+
+    # 点击登录
     dxh.get_element(node=node, key="user_login").click()
+    # 输入账号
     dxh.get_element(node=node, key="user_name").send_keys(username)
+    # 输入密码
     dxh.get_element(node=node, key="user_password").send_keys(password)
+    # 点击登录
     dxh.get_element(node=node, key="login_button").click()
 
 

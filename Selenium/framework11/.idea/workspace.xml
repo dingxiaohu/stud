@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a736702-2edd-4c4e-b9e3-37fce2a420f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../atstudy/business/login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../atstudy/business/take_course.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../atstudy/test_case/test_take_course.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../atstudy/test_data/login.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../atstudy/test_data/read_csv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../atstudy/config/dxh_driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/../atstudy/config/dxh_driver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../atstudy/config/dxh_findelement.py" beforeDir="false" afterPath="$PROJECT_DIR$/../atstudy/config/dxh_findelement.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../atstudy/config/read_ini.py" beforeDir="false" afterPath="$PROJECT_DIR$/../atstudy/config/read_ini.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../atstudy/test_run/BSTestRunner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../atstudy/business/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/../atstudy/business/login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../atstudy/test_case/test_take_course.py" beforeDir="false" afterPath="$PROJECT_DIR$/../atstudy/test_case/test_take_course.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../atstudy/test_data/read_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/../atstudy/test_data/read_csv.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,21 +38,25 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python tests.Python tests for test_take_course.TestTakeCourse.test_take_course03.executor": "Run",
+    "Python tests.Python tests in test_take_course.py.executor": "Run",
     "Python.dxh_driver (1).executor": "Run",
     "Python.dxh_driver.executor": "Run",
     "Python.dxh_findelement.executor": "Run",
+    "Python.dxh_run.executor": "Run",
     "Python.login.executor": "Run",
     "Python.read_csv.executor": "Run",
     "Python.read_ini.executor": "Run",
     "Python.take_course.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Study/Selenium/atstudy/browserdriver",
+    "last_opened_file_path": "D:/Study/Selenium/atstudy/test_run",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Study\Selenium\atstudy\test_run" />
       <recent name="D:\Study\Selenium\atstudy\browserdriver" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -64,8 +64,8 @@
       <recent name="D:\Study\Selenium\atstudy\browserdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.take_course">
-    <configuration name="dxh_findelement" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.dxh_run">
+    <configuration name="dxh_run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="atstudy" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -74,11 +74,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../atstudy/config" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../atstudy/test_run" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../atstudy/config/dxh_findelement.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../atstudy/test_run/dxh_run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -109,50 +109,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="read_csv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="atstudy" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../atstudy/test_data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../atstudy/test_data/read_csv.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="read_ini" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="atstudy" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../atstudy/config" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../atstudy/config/read_ini.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="take_course" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="atstudy" />
       <option name="ENV_FILES" value="" />
@@ -175,13 +131,43 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_take_course.TestTakeCourse.test_take_course03" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="atstudy" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../atstudy/test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_take_course.TestTakeCourse.test_take_course03&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_take_course.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="atstudy" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../atstudy/test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/../atstudy/test_case/test_take_course.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dxh_run" />
+        <item itemvalue="Python tests.Python tests for test_take_course.TestTakeCourse.test_take_course03" />
+        <item itemvalue="Python tests.Python tests in test_take_course.py" />
         <item itemvalue="Python.take_course" />
         <item itemvalue="Python.login" />
-        <item itemvalue="Python.read_csv" />
-        <item itemvalue="Python.read_ini" />
-        <item itemvalue="Python.dxh_findelement" />
       </list>
     </recent_temporary>
   </component>
